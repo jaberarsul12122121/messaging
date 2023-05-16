@@ -1,0 +1,5 @@
+fields:
+    states:
+        label: States
+        span: auto
+        type: number

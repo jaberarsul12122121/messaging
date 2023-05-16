@@ -1,0 +1,27 @@
+<?php Block::put('breadcrumb') ?>
+    <ul>
+        <li><a href="<?= Backend::url('acornassociated/messaging/messaging') ?>">Messenger</a></li>
+        <li><?= e($this->user->first_name) ?></li>
+    </ul>
+<?php Block::endPut() ?>
+
+<?= Block::put('sidepanel') ?>
+    <?php if (!$this->fatalError): ?>
+        <?= $this->makePartial('sidepanel') ?>
+    <?php endif ?>
+<?= Block::endPut() ?>
+<?php Block::put('form-contents') ?>
+<?php if (!$this->fatalError): ?>
+    <?php Block::endPut() ?>
+    <?php Block::put('form-sidebar') ?>
+    <?php if(isset($myautinfo)): ?>
+    <?php endif ?> 
+    <?php Block::endPut() ?>
+    <?php Block::put('body') ?>
+        <?= Form::open(['class'=>'layout stretch']) ?>
+        <?= $this->makeLayout('form-with-sidebar') ?>
+        <?= Form::close() ?>
+    <?php Block::endPut() ?>
+<?php endif ?>
+
+

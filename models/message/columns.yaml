@@ -1,0 +1,22 @@
+columns:
+    id:
+        label: id
+        type: number
+    user_id_id:
+        label: user_id_id
+        type: number
+    state_id_id:
+        label: state_id_id
+        type: number
+    subject:
+        label: subject
+        type: text
+    body:
+        label: body
+        type: text
+    created_at:
+        label: created_at
+        type: datetime
+    updated_at:
+        label: updated_at
+        type: datetime

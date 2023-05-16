@@ -1,0 +1,10 @@
+name: State
+form: $/acornassociated/messaging/models/state/fields.yaml
+modelClass: Acornassociated\Messaging\Models\State
+defaultRedirect: acornassociated/messaging/state
+create:
+    redirect: 'acornassociated/messaging/state/update/:id'
+    redirectClose: acornassociated/messaging/state
+update:
+    redirect: acornassociated/messaging/state
+    redirectClose: acornassociated/messaging/state

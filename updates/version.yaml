@@ -1,0 +1,11 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table acornassociated_messaging_states'
+    - builder_table_create_acornassociated_messaging_states.php
+1.0.3:
+    - 'Created table acornassociated_messaging_messages'
+    - builder_table_create_acornassociated_messaging_messages.php
+1.0.4:
+    - 'Created table acornassociated_messaging_messages_users'
+    - builder_table_create_acornassociated_messaging_messages_users.php

@@ -1,0 +1,32 @@
+fields:
+    subject:
+        label: Subject
+        span: auto
+        type: text
+    body:
+        label: Body
+        span: auto
+        type: text
+tabs:
+    fields:
+        user_id:
+            label: 'My Id'
+            nameFrom: first_name
+            descriptionFrom: description
+            span: auto
+            type: relation
+            tab: 'My Id'
+        users:
+            label: 'User To'
+            nameFrom: first_name
+            descriptionFrom: description
+            span: auto
+            type: relation
+            tab: 'User To'
+        state_id:
+            label: States
+            nameFrom: states
+            descriptionFrom: description
+            span: auto
+            type: relation
+            tab: status

@@ -1,0 +1,36 @@
+plugin:
+    name: 'acornassociated.messaging::lang.plugin.name'
+    description: 'acornassociated.messaging::lang.plugin.description'
+    author: acornassociated
+    icon: oc-icon-wechat
+    homepage: ''
+permissions:
+    messagingnavigation:
+        tab: Messaging
+        label: 'Messaging Navigation'
+    messagingitem:
+        tab: Messaging
+        label: 'Messaging Item'
+    messagingstates:
+        tab: Messaging
+        label: 'Messaging States'
+# navigation:
+#     messaging:
+#         label: Messaging
+#         url: acornassociated/messaging/messaging
+#         icon: icon-wechat
+#         permissions:
+#             - messagingnavigation
+#         sideMenu:
+#             convirsation:
+#                 label: Convirsation
+#                 url: acornassociated/messaging/messaging
+#                 icon: icon-send-o
+#                 permissions:
+#                     - messagingitem
+#             states:
+#                 label: States
+#                 url: acornassociated/messaging/state
+#                 icon: icon-eye
+#                 permissions:
+#                     - messagingstates

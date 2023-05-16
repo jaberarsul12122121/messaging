@@ -1,0 +1,10 @@
+name: Messaging
+form: $/acornassociated/messaging/models/message/fields.yaml
+modelClass: Acornassociated\Messaging\Models\Message
+defaultRedirect: acornassociated/messaging/messaging
+create:
+    redirect: 'acornassociated/messaging/messaging/update/:id'
+    redirectClose: acornassociated/messaging/messaging
+update:
+    redirect: acornassociated/messaging/messaging
+    redirectClose: acornassociated/messaging/messaging
