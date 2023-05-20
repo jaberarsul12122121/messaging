@@ -22,7 +22,8 @@
     height: 25px;
     max-width: 300px;
     margin-left: 10px;
-    padding: 15px;
+    padding: 17px;
+    opacity: 0.8;
 }
 .left-head {
     display: flex;
@@ -48,10 +49,13 @@
 }
 /* end first section  */
 /* start second section  */
-.towDiv {
+/* .towDiv {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     background-color: white;
+}
+.iconbutton:hover,.buttonMessage:hover {
+    color: var(--main-color)
 }
 .buttonMessage {
     display: flex;
@@ -64,6 +68,7 @@
     border: none;
     color: var(--secondary-color);
 }
+
 .iconbutton {
     display: flex;
     align-items: center;
@@ -72,10 +77,10 @@
     outline: none;
     border: none;
     color: var(--secondary-color);
-}
+} */
 /* end second section  */
 /* start third section  */
-.threeDiv {
+/* .threeDiv {
     display: flex;
     justify-content: space-between;
     background-image: linear-gradient(to left, lightblue, #d0d9dd);
@@ -85,37 +90,39 @@
  width: 150px;
  font-size: 20px;
  background-color: transparent;
- color: white;
+ color: var(--secondary-color);
  border: none;
  padding: 15px;
 
 }
 .threeDiv button:hover {
     color: var(--main-color);
-    /* color:#1991d1; */
-}
+} */
 /* end third section  */
 /* start four section  */
 .fourDiv {
    display: flex;
    background-image: linear-gradient(to left, lightblue, #d0d9dd);
-   height: 694px;
+   height: 79vh;
    overflow: scroll;
    overflow-x: hidden; /* Hide horizontal scrollbar */
-
-   
-
 }
 .fourDiv .one-person {
     display: grid;
     grid-template-columns: 1.5fr 3fr 1fr;
     align-content: center;
     gap: 15px;
-    border: 1px solid var(--borer-color);
+    outline: none;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
-    background-color: white;
-    margin-top: 3px;
+    background-image: linear-gradient(to right,#1991d1,#1991d1d6,#1991d186#1991d186,#1991d1d6,#1991d1); 
+    margin: 3px; 
+    box-shadow: -5px -5px 10px #9098a260; 
+}
+.fourDiv .one-person:hover {
+   cursor: pointer; 
+   background-color: #9098a260;
+   box-shadow: none;
 }
 .one-person .img-ind {
     position: relative;
@@ -173,8 +180,60 @@ ul {
 }
 /* end four section  */
 /* start five section  */
-.fiveDiv {
+/* .fiveDiv {
     background-color: var(--secondary-color);
     height: 40px;
-}
+} */
 /* end five section  */
+/* just for train  */
+.all {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 0;
+}
+.all .buttonMessage {
+    text-align: center;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+}
+.all .buttonMessage:hover {
+    background-color: #1991d1;
+    color: aliceblue;
+}
+
+.all .icon .iconbutton {
+    font-size: 20px; 
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 10px;
+    height: 100%;
+    color: rgba(0, 0, 0, 0.622);
+}
+.all .icon .iconbutton:hover {
+    background-color: #1991d1;
+    color: aliceblue;
+}
+.all .flex button {
+    font-size: 17px; 
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 50%;
+}
+.all .flex button:hover {
+    background-color: #1991d1;
+    color: aliceblue;  
+}
+.all .flex {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
