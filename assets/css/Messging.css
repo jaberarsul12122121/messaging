@@ -101,6 +101,8 @@
    background-image: linear-gradient(to left, lightblue, #d0d9dd);
    height: 694px;
    overflow: scroll;
+   overflow-x: hidden; /* Hide horizontal scrollbar */
+
    
 
 }
@@ -141,6 +143,7 @@ ul {
 .fourDiv .text {
     height: 100px;
     overflow: hidden;
+    
 }
 .fourDiv .text span {
     font-weight: bold;
